@@ -25,7 +25,7 @@ icon.filename = %(source.dir)s/icon.png
 # (7) পারমিশন
 android.permissions = INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
 
-# (8) কনফিগারেশন (32-bit = এরর ফ্রি)
+# (8) কনফিগারেশন (32-bit ব্যবহার করা হচ্ছে যাতে এরর না আসে)
 android.api = 33
 android.minapi = 24
 android.ndk_api = 21
