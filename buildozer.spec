@@ -12,7 +12,7 @@ source.include_exts = py,png,jpg,ui,db,ttf,zip
 # (3) ভার্সন
 version = 0.1
 
-# (4) রিকোয়ারমেন্টস (PyQt5 ব্যবহার করছি কারণ এটি মেশিনের জন্য হালকা)
+# (4) রিকোয়ারমেন্টস (PyQt5 = সুপার ফাস্ট)
 requirements = python3,pyqt5
 
 # (5) অ্যাপ ওরিয়েন্টেশন
@@ -25,7 +25,7 @@ icon.filename = %(source.dir)s/icon.png
 # (7) পারমিশন
 android.permissions = INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
 
-# (8) টেকনিক্যাল কনফিগারেশন (মেশিনের চাপ কমাতে শুধু 32-bit রাখা হলো)
+# (8) কনফিগারেশন (32-bit = এরর ফ্রি)
 android.api = 33
 android.minapi = 24
 android.ndk_api = 21
