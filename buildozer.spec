@@ -13,7 +13,7 @@ source.include_exts = py,png,jpg,ui,db,ttf,zip
 version = 0.1
 
 # (4) রিকোয়ারমেন্টস
-requirements = python3,pyqt6
+requirements = python3,pyqt5
 
 # (5) অ্যাপ ওরিয়েন্টেশন
 orientation = portrait
